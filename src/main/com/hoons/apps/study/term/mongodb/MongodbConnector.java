@@ -1,4 +1,4 @@
-package term.mongodb;
+package com.hoons.apps.study.term.mongodb;
 
 import java.io.IOException;
 import java.util.Random;

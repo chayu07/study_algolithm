@@ -1,4 +1,4 @@
-package term.handlersocket;
+package com.hoons.apps.study.term.handlersocket;
 
 import java.io.IOException;
 import java.net.InetAddress;

@@ -1,4 +1,4 @@
-package algolithm;
+package com.hoons.apps.study.algolithm;
 
 import java.math.BigInteger;
 

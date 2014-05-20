@@ -18,7 +18,7 @@ import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
 
-import term.handlersocket.HandlersocketConnector;
+import com.hoons.apps.study.term.handlersocket.HandlersocketConnector;
 
 
 public class HandlersocketTest {

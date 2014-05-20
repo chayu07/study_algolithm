@@ -18,7 +18,7 @@ import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
 
-import term.mongodb.MongodbConnector;
+import com.hoons.apps.study.term.mongodb.MongodbConnector;
 
 
 public class MongodbTest {
