@@ -31,6 +31,6 @@ public class Factorial {
 	}
 
 	public static void main(String[] argc) {
-		System.out.println(Factorial.fact(500));
+		System.out.println(Factorial.fact(3));
 	}
 }
