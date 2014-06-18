@@ -5,8 +5,7 @@ public class MergeSort {
 	public static void main(String[] args) {
 		int[] arr = {5,3,7,6,2,1,4,10,200,23,100,1};
 
-		MergeSort sort = new MergeSort();
-		sort.sort(arr);
+		arr = MergeSort.sort(arr);
 
 		for (int index = 0; index < arr.length; index++) {
 			if(index <arr.length-1) {
@@ -17,7 +16,7 @@ public class MergeSort {
 		}
 	}
 
-	private int[] sort(int[] arr) {
+	public static int[] sort(int[] arr) {
 
 		if( arr.length > 1) {
 			int left = 0;
@@ -29,7 +28,7 @@ public class MergeSort {
 		return arr;
 	}
 
-	private void internalSort(int[] arr, int[] tempSpace, int left, int right) {
+	private static void internalSort(int[] arr, int[] tempSpace, int left, int right) {
 		if(right > left) {
 			int middle = (left + right) / 2;
 			internalSort(arr, tempSpace, left, middle);
@@ -38,7 +37,7 @@ public class MergeSort {
 		}
 	}
 
-	private void merge(int[] arr, int left, int right, int middle, int[] temp) {
+	private static void merge(int[] arr, int left, int right, int middle, int[] temp) {
 		int left_cur = left;
 		int right_cur = middle + 1;
 		int temp_cur = 0;
